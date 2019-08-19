@@ -1,6 +1,6 @@
-## Multiple Authentication In Laravel 5.6
+## Multiple Authentication In Laravel 5.8
 
-You can install Laravel 5.6 with Multiple Authentication (Admin and Users).
+You can install Laravel 5.8 with Multiple Authentication (Admin and Users).
 
 How to use:
 1. Clone this repository
@@ -12,7 +12,7 @@ How to use:
 7. Use tinker to set Admin email and password
       ```
       php artisan tinker
-      $admin = App\Admin
+      $admin = new App\Admin
       $admin->email = 'admin@app.com'
       $admin->password = Hash::make('adminpassword')
       $admin->save()
