@@ -14,6 +14,7 @@ How to use:
       php artisan tinker
       $admin = new App\Admin
       $admin->email = 'admin@app.com'
+      $admin->username = 'Admin'
       $admin->password = Hash::make('adminpassword')
       $admin->save()
       
